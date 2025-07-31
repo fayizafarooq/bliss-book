@@ -1,3 +1,4 @@
+
 body{
 box-sizing: border-box;
 margin: auto;
@@ -8,6 +9,7 @@ background: linear-gradient(90deg,rgba(251, 111, 146, 1) 0%, rgba(255, 194, 209,
 .header {
   display: flex;
   justify-content: center;
+  align-items: center;
   min-height: 100vh;
   width: 100%;
   gap: 30px;
@@ -148,8 +150,6 @@ background: linear-gradient(90deg,rgba(251, 111, 146, 1) 0%, rgba(255, 194, 209,
 /* GENRE */
 .genre,.genre h1 {
   margin: 0;
-  background: linear-gradient(114deg,rgba(242, 201, 213, 1) 0%, rgba(255, 194, 209, 1) 23%, rgba(251, 111, 146, 1) 52%, rgba(255, 179, 198, 1) 75%, rgba(242, 196, 205, 1) 100%);
-  color:rgb(62, 2, 37);
   text-align: center;
   }
     
@@ -177,7 +177,6 @@ background: linear-gradient(90deg,rgba(251, 111, 146, 1) 0%, rgba(255, 194, 209,
   flex-direction: column;
   gap: 20px;
   padding: 20px;
-  background: linear-gradient(90deg,rgba(251, 111, 146, 1) 0%, rgba(255, 194, 209, 1) 23%, rgba(251, 111, 146, 1) 52%, rgba(255, 179, 198, 1) 75%, rgba(255, 143, 171, 1) 100%);
 }
 .books{
   display:flex;
@@ -229,7 +228,7 @@ background: linear-gradient(90deg,rgba(251, 111, 146, 1) 0%, rgba(255, 194, 209,
   gap: 40px;
   margin-top: 0;
   flex-wrap: wrap;
-  background: linear-gradient(90deg,rgba(251, 111, 146, 1) 0%, rgba(255, 194, 209, 1) 23%, rgba(251, 111, 146, 1) 52%, rgba(255, 179, 198, 1) 75%, rgba(255, 143, 171, 1) 100%);
+  
   margin: 0;
   padding: 30px;
   color: aliceblue;
@@ -301,7 +300,6 @@ background: linear-gradient(90deg,rgba(251, 111, 146, 1) 0%, rgba(255, 194, 209,
   padding: 20px;
   align-items: center;
   flex-wrap: wrap;
-   background: linear-gradient(114deg,rgba(209, 54, 101, 1) 0%, rgba(255, 194, 209, 1) 23%, rgba(251, 111, 146, 1) 52%, rgba(255, 179, 198, 1) 75%, rgba(214, 28, 65, 1) 100%);
 }
 .thriller{
   width: 300px; /* Fixed width */
@@ -495,7 +493,6 @@ button.form:hover{
   transform: scale(1.1);
   color: aliceblue;
 }
-
 /* ================= MOBILE RESPONSIVENESS ================= */
 @media (max-width: 768px) {
   /* General adjustments */
@@ -609,3 +606,4 @@ button.form:hover{
     height: 250px;
   }
 }
+
