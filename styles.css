@@ -496,4 +496,116 @@ button.form:hover{
   color: aliceblue;
 }
 
+/* ================= MOBILE RESPONSIVENESS ================= */
+@media (max-width: 768px) {
+  /* General adjustments */
+  body {
+    font-size: 14px;
+    overflow-x: hidden;
+  }
 
+  /* Navigation */
+  .nav {
+    gap: 5%;
+    padding: 0.5rem;
+    position: relative;
+    flex-wrap: wrap;
+  }
+  
+  .nav a {
+    font-size: 0.9rem;
+    padding: 0.3rem;
+  }
+
+  /* Header section */
+  .header {
+    flex-direction: column;
+    min-height: auto;
+    padding: 60px 10px 20px;
+  }
+
+  .text-content {
+    max-width: 100%;
+    padding: 10px;
+    order: 2;
+  }
+
+  .text-content h1 {
+    font-size: 2rem;
+    margin-top: 0;
+  }
+
+  .p2 {
+    font-size: 1.2rem;
+  }
+
+  .image-content {
+    max-width: 100%;
+    height: 300px;
+    padding: 10px;
+    order: 1;
+    margin-bottom: 20px;
+  }
+
+  /* Book sections */
+  .books, .fantasy, .thriller {
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .fantasy-series {
+    gap: 20px;
+    padding: 10px;
+  }
+
+  .fantasy {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .thriller {
+    width: 90%;
+    min-height: auto;
+  }
+
+  /* Forms and inputs */
+  .input {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .forum {
+    width: 90%;
+  }
+
+  /* Social links */
+  .socials {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0;
+  }
+}
+
+/* For very small devices */
+@media (max-width: 480px) {
+  .nav {
+    gap: 3%;
+  }
+  
+  .nav a {
+    font-size: 0.8rem;
+  }
+
+  .text-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .p2 {
+    font-size: 1rem;
+  }
+
+  .image-content {
+    height: 250px;
+  }
+}
